@@ -1,0 +1,313 @@
+body {
+  background-color: black;
+  color: white;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hop {
+  display: flex;
+  gap: 10px;
+}
+
+#logo {
+  height: 100px;
+}
+
+.search {
+  height: 30px;
+}
+
+.prof {
+  height: 30px;
+}
+
+.noti {
+  height: 30px;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+nav ul a{
+  color: azure;
+  text-decoration: none;
+}
+
+nav ul a li {
+  font-size: x-large;
+}
+
+
+.input {
+  background-color: transparent;
+  border: solid white 1px;
+  text-align: center;
+  width: 104px;
+  color: white;
+  border-radius: 5px;
+  display: none;
+  height: 15px;
+  margin-top: 8px;
+  padding-right: 26px;
+}
+
+.dis {
+  display: block;
+}
+
+.lap {
+  display: flex;
+}
+
+#play0 {
+  height: 50px;
+}
+
+#play1 {
+  height: 50px;
+}
+
+#bm1 {
+  height: 50px;
+}
+
+/* #first-sec:not(.slider:first-child) {
+  display: none;
+} */
+
+@keyframes slide {
+  0% { margin-left: 0; }
+  28.333% { margin-left: 0; }
+  33.333% { margin-left: -100%; }
+  61.667% { margin-left: -100%; }
+  66.667% { margin-left: -200%; }
+  95% { margin-left: -200%; }
+  100% { margin-left: 0; }
+} 
+
+.sponsor {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.sponsor img {
+  height: 80px;
+}
+
+#hbo {
+  background-color: white;
+  height: 40px;
+  margin-top: 30px;
+}
+
+#pixar {
+  height: 30px;
+  margin-top: 30px;
+}
+
+#marvel {
+  height: 100px;
+}
+
+#con {
+  display: flex;
+  overflow-x: scroll;
+  animation-name: slider;
+  transition: ease-in-out;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#con img {
+  height: 400px;
+  border-radius: 19px;
+  border: solid black 5px;
+}
+
+#con img:hover{
+  border: solid red 5px;
+}
+
+#hi img {
+  height: 400px;
+  border-radius: 19px;
+  border: solid black 5px;
+}
+
+#hi img:hover{
+  border: solid red 5px;
+}
+
+#hit img {
+  height: 400px;
+  border-radius: 19px;
+  border: solid black 5px;
+}
+
+#hit img:hover{
+  border: solid red 5px;
+}
+
+#yup img {
+  height: 400px;
+  border-radius: 19px;
+  border: solid black 5px;
+}
+
+#yup img:hover{
+  border: solid red 5px;
+}
+
+#yup {
+  display: flex;
+  overflow-x: scroll;
+  animation-name: slider;
+  transition: ease-in-out;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#hit {
+  display: flex;
+  overflow-x: scroll;
+  animation-name: slider;
+  transition: ease-in-out;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#hi {
+  display: flex;
+  overflow-x: scroll;
+  animation-name: slider;
+  transition: ease-in-out;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.arrow, .arrow2, .arrow3, .arrow4, .arrow5 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 10% auto;
+}
+
+.arrow #next1, #next2, #next3, #next4, #next5 {
+  height: 25px;
+  font-size: xx-large;
+  background: transparent;
+  border: solid transparent 1px;
+  color: aliceblue;
+  margin-top: 180px;
+} 
+#prev1, #prev2, #prev3, #prev4, #prev5 {
+  height: 25px;
+  font-size: xx-large;
+  background: transparent;
+  border: solid transparent 1px;
+  color: aliceblue;
+  margin-top: 180px;
+}
+
+#fav {
+  display: flex;
+  overflow-x: scroll;
+  animation-name: slider;
+  transition: ease-in-out;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#favourite {
+  display: none;
+}
+
+.slider1 {
+  background-image:
+  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(1, 0, 0)),
+  url('https://media.themoviedb.org/t/p/w300_and_h450_bestv2/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg');
+  background-size: cover;
+}
+
+.slider2 {
+  background-image:
+  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(1, 0, 0)),
+  url('https://media.themoviedb.org/t/p/w300_and_h450_bestv2/iADOJ8Zymht2JPMoy3R7xceZprc.jpg');
+  background-size: cover;
+}
+
+.slider3 {
+  background-image:
+  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(1, 0, 0)),
+  url('https://media.themoviedb.org/t/p/w300_and_h450_bestv2/H6vke7zGiuLsz4v4RPeReb9rsv.jpg');
+  background-size: cover;
+}
+
+.slider4 {
+  background-image:
+  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(1, 0, 0)),
+  url('https://media.themoviedb.org/t/p/w300_and_h450_bestv2/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg');
+  background-size: cover;
+}
+
+.slider {
+  display: flex;
+  gap: 10px;
+}
+
+.media img {
+  height: 35px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-grid ul{
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  margin-left: -20px;
+  font-size: 15px;
+}
+
+.first-grid p {
+  font-size: x-large;
+  margin-left: 20px;
+  font-weight: 900;
+}
+
+.second-grid ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-bottom: 65px;
+}
+
+.media {
+margin-left: 160px;
+}
+
+.second-grid p{
+margin-left: 175px;
+}
+
+footer {
+  margin-top: 10%;
+}
+
+button {
+  background-color: transparent;
+  border: transparent;
+}

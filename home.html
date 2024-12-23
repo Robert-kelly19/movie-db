@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOVIES-DB</title>
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=bookmark,favorite" />
+</head>
+<body> 
+  <header>
+    <nav>
+      <img src="./images/logo.png" alt="logo" id="logo">
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href=""> <li>Discover</li></a>
+        <a href=""> <li>Movie Release</li></a>
+        <a href=""> <li>Forum</li></a>
+        <a href=""> <li>About</li></a>
+      </ul>
+      <div class="hop">
+          <input type="text" class="input" placeholder="Search a movie" >
+          <img src="./images/search.png" alt="search" class="search">
+        <img src="./images/noti.png" alt="noti" class="noti">
+        <img src="./images/profile.png" alt="pro" class="prof">
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="sponsor">
+      <img src="./images/disney.png" alt="1">
+      <img src="./images/netflix.png" alt="2">
+      <img src="./images/hbo.png" alt="3" id="hbo">
+      <img src="./images/pixar.png" alt="4" id="pixar">
+      <img src="./images/marvel-logo.png" alt="5" id="marvel">
+      <img src="./images/star-wars-logo.png" alt="6">
+      <img src="./images/nageo.png" alt="7">
+    </section>
+    <section class="pop">
+      <h4>Popular of the week</h4>
+      <div class="container">
+        <div class="arrow">
+          <button type="button" id="prev1"><</button>
+          <div id="con">
+          </div>
+          <button type="button" id="next1">></button>
+        </div>
+        <div id="con">
+        </div>
+      </div>
+      </section>
+      <section class="Trending">
+        <h4>Trending Movies</h4>
+        <div class="arrow2">
+          <button type="button" id="prev2"><</button>
+          <div id="yup">
+          </div>
+          <button type="button" id="next2">></button>
+        </div>
+      </section>
+      <section id="favourite">
+        <h4>Your favourite</h4>
+        <div class="arrow5">
+          <button type="button" id="prev5"><</button>
+          <div id="fav">
+          </div>
+          <button type="button" id="next5">></button>
+      </section>
+      <section class="sec5">
+        <h4>Series</h4>
+        <div class="arrow3">
+          <button type="button" id="prev3"><</button>
+          <div id="hit">
+          </div>
+          <button type="button" id="next3">></button>
+        </div>
+      </section>
+      <section class="sec6">
+        <h4>Movie</h4>
+        <div class="arrow4">
+          <button type="button" id="prev4"><</button>
+          <div id="hi">
+          </div>
+          <button type="button" id="next4">></button>
+      </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="first-grid">
+        <p>Our platform is trusted<br>
+        by millions & features<br>best updated movies<br>all around the world.</p>
+        <ul>
+          <li>Privacy policy</li>
+          <li>Term of service</li>
+          <li>Language</li>
+        </ul>
+      </div>
+      <div class="second-grid">
+        <ul>
+          <li>Home  /</li>
+          <li>Discover  /</li>
+          <li>Influence  /</li>
+          <li>Release</li>
+        </ul>
+        <div class="media">
+          <img src="./images/fb.png" alt="fb logo" class="fb">
+          <img src="./images/ig.png" alt="ig logo" class="ig">
+          <img src="https://img.icons8.com/ios7/600/FFFFFF/twitter.png" alt="x logo" class="x">
+          <img src="data:image/png;base64,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" alt="google logo" class="google">
+        </div>
+        <p>©2024</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./javascript/home.js"></script>
+  </body>
+  </html>
